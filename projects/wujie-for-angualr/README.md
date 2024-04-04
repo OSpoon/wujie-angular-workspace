@@ -5,14 +5,14 @@
 ## 安装
 
 ```bash
-npm i wujie-angular -S
+npm i wujie-for-angular -S
 ```
 
 ## 引入
 
 ```JavaScript
 @Component({
-  imports: [WujieAngularModule],
+  imports: [WujieForAngularModule],
 })
 export class AppComponent {}
 ```
@@ -20,7 +20,7 @@ export class AppComponent {}
 ## 使用
 
 ```html
-<wujie-angular
+<wujie-for-angular
   name="angular.cn"
   url="https://angular.cn/"
   width="100%"
@@ -28,5 +28,5 @@ export class AppComponent {}
   [sync]="true"
   [beforeLoad]="onBeforeload"
 >
-</wujie-angular>
+</wujie-for-angular>
 ```

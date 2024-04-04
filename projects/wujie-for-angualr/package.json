@@ -1,5 +1,5 @@
 {
-  "name": "wujie-angular",
+  "name": "wujie-for-angular",
   "version": "0.0.1",
   "scripts": {
     "build": "ng-packagr -p ng-package.json"

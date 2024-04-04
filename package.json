@@ -1,5 +1,5 @@
 {
-  "name": "wujie-for-angular",
+  "name": "wujie-angular-workspace",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -20,7 +20,7 @@
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "wujie": "^1.0.22",
-    "wujie-angular": "file:dist/wujie-angular",
+    "wujie-for-angular": "file:dist/wujie-for-angular",
     "zone.js": "~0.14.3"
   },
   "devDependencies": {

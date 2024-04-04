@@ -5,14 +5,14 @@ export type lifecycle = (appWindow: Window) => any;
 export type loadErrorHandler = (url: string, e: Error) => any;
 
 @Component({
-  selector: 'wujie-angular',
+  selector: 'wujie-for-angular',
   template: '',
   host: {
     '[style.width]': 'width',
     '[style.height]': 'height'
   }
 })
-export class WujieAngularComponent implements AfterViewInit, OnChanges, OnDestroy {
+export class WujieForAngularComponent implements AfterViewInit, OnChanges, OnDestroy {
   static bus = bus;
   static setupApp = setupApp;
   static preloadApp = preloadApp;
