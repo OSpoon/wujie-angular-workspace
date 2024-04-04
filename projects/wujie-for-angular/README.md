@@ -1,4 +1,4 @@
-# Angualr 组件封装
+# angular 组件封装
 
 无界基于 Angular 框架的组件封装
 

@@ -1,0 +1,36 @@
+{
+  "name": "wujie-for-angular",
+  "version": "0.0.2",
+  "description": "无界基于 Angular 框架的组件封装",
+  "author": "OSpoon zxin088@gmail.com",
+  "license": "MIT",
+  "homepage": "https://github.com/OSpoon/wujie-angular-workspace#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSpoon/wujie-angular-workspace.git"
+  },
+  "bugs": "https://github.com/OSpoon/wujie-angular-workspace/issues",
+  "keywords": [
+    "无界",
+    "Wujie",
+    "微前端",
+    "angular",
+    "wujie-angular",
+    "wujie-for-angular"
+  ],
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json"
+  },
+  "peerDependencies": {
+    "@angular/common": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "wujie": "^1.0.22"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
