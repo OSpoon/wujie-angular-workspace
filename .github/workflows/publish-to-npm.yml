@@ -19,9 +19,9 @@ jobs:
       run: npm ci
       
     - name: Build package
-      run: cd projects/wujie-for-angualr && npm run build
+      run: cd projects/wujie-for-angular && npm run build
 
     - name: Publish to NPM
-      run: cd projects/wujie-for-angualr && npm publish --access public
+      run: cd projects/wujie-for-angular && npm publish --access public
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
