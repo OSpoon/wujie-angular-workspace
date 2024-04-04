@@ -30,3 +30,7 @@ export class AppComponent {}
 >
 </wujie-for-angular>
 ```
+
+## License
+
+[MIT](./LICENSE) License © 2024-PRESENT [OSpoon](https://github.com/OSpoon)
