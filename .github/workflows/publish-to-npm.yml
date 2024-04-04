@@ -22,6 +22,6 @@ jobs:
       run: cd projects/wujie-for-angualr && npm run build
 
     - name: Publish to NPM
-      run: npm publish --access public
+      run: cd projects/wujie-for-angualr && npm publish --access public
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
