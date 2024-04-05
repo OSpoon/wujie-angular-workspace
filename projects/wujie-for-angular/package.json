@@ -1,6 +1,6 @@
 {
   "name": "wujie-for-angular",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "无界基于 Angular 框架的组件封装",
   "author": "OSpoon zxin088@gmail.com",
   "license": "MIT",
@@ -17,9 +17,6 @@
     "angular",
     "wujie-angular",
     "wujie-for-angular"
-  ],
-  "files": [
-    "dist"
   ],
   "scripts": {
     "build": "ng-packagr -p ng-package.json"
