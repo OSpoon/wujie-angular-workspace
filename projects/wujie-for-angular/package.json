@@ -21,8 +21,7 @@
   "scripts": {
     "build": "ng-packagr -p ng-package.json",
     "bumpp": "bumpp --commit --push --tag",
-    "publish": "cd dist && npm publish --access public",
-    "release": "npm run build && npm run bumpp"
+    "release": "npm run build && npm run bumpp && cd dist && npm publish --access public"
   },
   "peerDependencies": {
     "@angular/common": "^17.3.0",
