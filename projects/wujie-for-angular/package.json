@@ -1,6 +1,6 @@
 {
   "name": "wujie-for-angular",
-  "version": "0.0.4-beta.1",
+  "version": "0.0.4-beta.2",
   "description": "无界基于 Angular 框架的组件封装",
   "author": "OSpoon zxin088@gmail.com",
   "license": "MIT",
@@ -20,7 +20,9 @@
   ],
   "scripts": {
     "build": "ng-packagr -p ng-package.json",
-    "release": "bumpp --commit --push --tag && npm publish --access public"
+    "bumpp": "bumpp --commit --push --tag",
+    "publish": "npm publish --access public",
+    "release": "npm run bumpp && npm run publish"
   },
   "peerDependencies": {
     "@angular/common": "^17.3.0",
