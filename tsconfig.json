@@ -20,7 +20,7 @@
     "useDefineForClassFields": false,
     "lib": ["ES2022", "dom"],
     "paths": {
-      "wujie-angular": ["./dist/wujie-angular"]
+      "wujie-for-angular": ["./dist/wujie-for-angular"]
     }
   },
   "angularCompilerOptions": {

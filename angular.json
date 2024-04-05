@@ -82,23 +82,23 @@
         }
       }
     },
-    "wujie-angular": {
+    "wujie-for-angular": {
       "projectType": "library",
-      "root": "projects/wujie-angular",
-      "sourceRoot": "projects/wujie-angular/src",
+      "root": "projects/wujie-for-angular",
+      "sourceRoot": "projects/wujie-for-angular/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/wujie-angular/ng-package.json"
+            "project": "projects/wujie-for-angular/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/wujie-angular/tsconfig.lib.prod.json"
+              "tsConfig": "projects/wujie-for-angular/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/wujie-angular/tsconfig.lib.json"
+              "tsConfig": "projects/wujie-for-angular/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -106,7 +106,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/wujie-angular/tsconfig.spec.json",
+            "tsConfig": "projects/wujie-for-angular/tsconfig.spec.json",
             "polyfills": ["zone.js", "zone.js/testing"]
           }
         }
