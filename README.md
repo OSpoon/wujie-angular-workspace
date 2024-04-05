@@ -9,7 +9,7 @@ npm install
 npm run start
 ```
 
-PS: 使用 **demo** 见 `projects/example`;
+PS: 使用 **[Demo](https://wujie-angular-workspace-n5w85jgnm-ospoons-projects.vercel.app/)** 见 `projects/example`;
 
 ## License
 
