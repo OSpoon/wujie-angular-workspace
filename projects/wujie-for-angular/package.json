@@ -18,11 +18,6 @@
     "wujie-for-angular",
     "wujie-for-angular"
   ],
-  "scripts": {
-    "build": "ng-packagr -p ng-package.json",
-    "bumpp": "bumpp --commit --push --tag",
-    "release": "npm run bumpp && npm run build && cd dist && npm publish --access public"
-  },
   "peerDependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0",
@@ -31,8 +26,5 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "sideEffects": false,
-  "devDependencies": {
-    "bumpp": "^9.4.0"
-  }
+  "sideEffects": false
 }
