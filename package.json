@@ -9,7 +9,7 @@
     "build:wujie-for-angular": "ng build wujie-for-angular",
     "watch:wujie-for-angular": "ng build wujie-for-angular --watch --configuration development",
     "bumpp:wujie-for-angular": "cd projects/wujie-for-angular && bumpp --commit --push --tag",
-    "release:wujie-for-angular": "npm run bumpp && npm run build:wujie-for-angular && cd dist/wujie-for-angular && npm publish --access public"
+    "release:wujie-for-angular": "npm run bumpp:wujie-for-angular && npm run build:wujie-for-angular && cd dist/wujie-for-angular && npm publish --access public"
   },
   "private": true,
   "dependencies": {
